@@ -8,7 +8,7 @@
 
 ## The Algorithm
 
-The two models used in this project are DetectNet and ImageNet. This correlates with two files, BirdDetection and HummingbirdDetection. One command is executed by the user, which contains the desired input image. First, the image is passed to HummingbirdDetection which utilizes DetectNet to determine how many birds are in the image. The program then counts how many birds are present using ClassID. If any objects are found (by finding length of detection list), the input is automatically passed to HummingbirdDetection. If not, it asks for a different image.  The result of this process is printed. 
+The two models used in this project are DetectNet and ImageNet. This correlates with two files that use them, BirdDetection and HummingbirdDetection, respectively. One command is executed by the user, which contains the desired input image. First, the image is passed to HummingbirdDetection which utilizes DetectNet to determine how many birds are in the image. The program then counts how many birds are present using ClassID. If any objects are found (by finding length of detection list), the input is automatically passed to HummingbirdDetection. If not, it asks for a different image.  The result of this process is printed. 
 If BirdDetection passes on the input image, HummingbirdDetection finds if hummingbirds are present in the image, using class_idx from ImageNet. The result (True/False) is also printed.
 
 ## Running this project
