@@ -18,6 +18,7 @@ If BirdDetection passes on the input image, HummingbirdDetection finds if hummin
 3. Within the same directory that BirdDetection and HummingbirdDetection are in, add photo that you want to process
 4. In the terminal run:  python3 BirdDetection.py [Filename_of_Image] (ex. python3 BirdDetection.py hummingbirds.jpg)
 5.  After BirdDetection runs, it will output each individual item that it detects. After that is complete, your image will automatically be processed by HummingbirdDetection to determine whether there are hummingbirds within the image.
+Please note that BirdDetection output will be printed before HummingbirdDetection runs, so you will have to scroll up for BirdDetection output.
 
 [View a video explanation here](video link)
 
