@@ -15,9 +15,9 @@ If BirdDetection passes on the input image, HummingbirdDetection finds if hummin
 
 1. Connect to Jetson Nano through PuTTY SSH [Use IP address found after connecting USB]. Port 22 on the Nano is available. Make sure your computer’s hotspot is on for the Nano to connect to.
 2. Open Visual Studio Code and connect to the Nano through SSH
-3. Within the directory of ~/jetson-inference/my_recognition (Or the same directory that BirdDetection and HummingbirdDetection), add photo that you want to process
+3. Within the same directory that BirdDetection and HummingbirdDetection are in, add photo that you want to process
 4. In the terminal run:  python3 BirdDetection.py [Filename_of_Image] (ex. python3 BirdDetection.py hummingbirds.jpg)
-5.  After DetectNet runs, it will output each individual item that it detects. After, your image will be processed by imageNet to determine whether there are hummingbirds within the image.
+5.  After BirdDetection runs, it will output each individual item that it detects. After that is complete, your image will automatically be processed by HummingbirdDetection to determine whether there are hummingbirds within the image.
 
 [View a video explanation here](video link)
 
